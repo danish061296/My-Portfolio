@@ -2,64 +2,76 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'danish-portfolio', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hi! I am ',
+  name: 'Danish Siddiqui',
+  subtitle: 'I am the Future Web App Developer...',
+  cta: 'Know More!',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'myPicture.png',
+  paragraphOne:
+    'I am passionate Web Application Developer. Right now, I am a senior in San Francisco State University. \
+  I do programming not as a challenge but for fun. I love to learn about the new technologies that is out there \
+  , and I am a self-taught learner besides learning to build Web Applications in my college.',
+  paragraphTwo:
+    'I also enjoy travelling with my family and friends, and I keep myself in shape with daily workout as well.',
+  paragraphThree:
+    'I am looking forward to professionally work in Web Development field as a full-stack or a front-end developer.',
+  resume:
+    'https://docs.google.com/document/d/1HIWL-tFMnFPe-u9SbfBWZF_8_0n2STmqsRT61DJRCPc/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'amazonClone.png',
+    title: 'Amazon-App-Clone',
+    info:
+      'Built an Amazon clone with basic functionality such as SignIn/SignOut, and add and delete items from the cart.',
+    info2:
+      'Technologies used: ReactJS, React Context API, JavaScript, CSS3, Firebase Authentication, Firebase Deployment.',
+    url: 'https://app-b8fce.web.app/',
+    repo: 'https://github.com/danish061296/amazon-app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'sodaChat.png',
+    title: 'Soda-Chat-Room',
+    info:
+      'SodaChat is a full-stack app using ReactJS, NodeJS, and Express for frontend and JavaMaven, Maven Spark, WebSocket and MongoDB for backend.',
+    info2:
+      'It features a full login and auth system to sign in or create accounts, live messaging, and a like button. It is deployed on an AWS EC2 instance, hosted on a domain from Google Domains, and SSL certified with LetsEncrypt.',
+    url: 'https://sodachat.net/',
+    repo: 'https://github.com/danish061296/sodaChat', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'covid19App.png',
+    title: 'Covid19-App',
+    info:
+      'The Covid19-App is an IOS App that provides real time covid cases across the world as well as within the United States. ',
+    info2:
+      'It uses a free covid19 API, pod animations, and swift5. It features covid cases by searching with the country name or the states within the United States.',
+    url: 'https://github.com/danish061296/MYCovid19-IOS-APP',
+    repo: 'https://github.com/danish061296/MYCovid19-IOS-APP', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
-  email: '',
+  btn: "Let's Meet",
+  email: 'dsiddiqui@mail.sfsu.edu',
 };
 
 // FOOTER DATA
@@ -67,23 +79,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/danish-siddiqui-73b531179/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/danish061296',
+    },
+    {
+      id: nanoid(),
+      name: 'facebook',
+      url: 'https://www.facebook.com/danish.siddiqui.73/',
     },
   ],
 };
