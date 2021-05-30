@@ -11,19 +11,20 @@ export const headData = {
 export const heroData = {
   title: 'Hi! I am ',
   name: 'Danish Siddiqui',
-  subtitle: 'I am the Future Web App Developer...',
+  subtitle:
+    'Freshly graduated with a Bachelor in Computer Science. I make full-stack web applications with my CS colleagues.',
   cta: 'Know More!',
+  linkedin: 'https://www.linkedin.com/in/danish-siddiqui-73b531179/',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'myPicture.png',
   paragraphOne:
-    'I am passionate Web Application Developer. Right now, I am a senior in San Francisco State University. \
-  I do programming not as a challenge but for fun. I love to learn about the new technologies that is out there \
-  , and I am a self-taught learner besides learning to build Web Applications in my college.',
+    'I am a passionate Web Application Developer. I just graduated from San Francisco State University. \
+  I  try to learn something new each day and always puts user expectations as my first priority.',
   paragraphTwo:
-    'I also enjoy travelling with my family and friends, and I keep myself in shape with daily workout as well.',
+    'I also enjoy travelling with my family and friends, and I regularly workout to stay in good shape.',
   paragraphThree:
     'I am looking forward to professionally work in Web Development field as a full-stack or a front-end developer.',
   resume:
@@ -34,14 +35,13 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'amazonClone.png',
-    title: 'Amazon-App-Clone',
+    img: 'iShareBooks.png',
+    title: 'iShareBooks',
     info:
-      'Built an Amazon clone with basic functionality such as SignIn/SignOut, and add and delete items from the cart.',
-    info2:
-      'Technologies used: ReactJS, React Context API, JavaScript, CSS3, Firebase Authentication, Firebase Deployment.',
-    url: 'https://app-b8fce.web.app/',
-    repo: 'https://github.com/danish061296/amazon-app', // if no repo, the button will not show up
+      'Full-stack responsive e-commerce web app that allows users specially students to buy, trade, and sale new and used books to help juior students access it.',
+    info2: 'It features a login and book posting system using REST APIs, ReactJS, and SQL.',
+    url: 'http://35.215.84.127:3000',
+    repo: 'https://github.com/danish061296/iShareBooks', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -54,6 +54,18 @@ export const projectsData = [
     url: 'https://sodachat.net/',
     repo: 'https://github.com/danish061296/sodaChat', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'amazonClone.png',
+    title: 'Amazon-App-Clone',
+    info:
+      'Built an Amazon clone with basic functionality such as SignIn/SignOut, and add and delete items from the cart.',
+    info2:
+      'Technologies used: ReactJS, React Context API, JavaScript, CSS3, Firebase Authentication, Firebase Deployment.',
+    url: 'https://app-b8fce.web.app/',
+    repo: 'https://github.com/danish061296/amazon-app', // if no repo, the button will not show up
+  },
+
   {
     id: nanoid(),
     img: 'covid19App.png',
